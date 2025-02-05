@@ -1,0 +1,82 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navbar {
+    background-color: #041d44;
+}
+
+.navbar-header {
+    padding: 20px 20px; /* Ajusta el padding según sea necesario */
+}
+
+.navbar-brand img {
+    height: auto;
+    max-width: 100%;
+}
+
+.navbar-nav > li > a {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 2.8rem;
+
+}
+
+.dropdown-menu {
+    font-size: 2rem;
+}
+
+.enes{
+    margin-top: 2.8rem;
+    margin-left: 600px;
+}
+
+.caam{
+    margin-top: 2.8rem;
+}
+
+/* Media queries para pantallas pequeñas */
+@media only screen and (max-width: 768px) {
+    .navbar-header {
+        text-align: center;
+    }
+
+    .navbar-brand {
+        margin: 5px auto; /* Centra las imágenes dentro del navbar en pantallas pequeñas */
+        display: block;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .dropdown-menu {
+        position: static;
+        background-color: inherit;
+        width: 100%;
+        text-align: center;
+    }
+
+    .dropdown-menu li {
+        margin-bottom: 10px;
+    }
+
+    .enes {
+        margin-left: 0; /* Ajusta el margen según sea necesario */
+        margin-top: 10px; /* Ajusta el margen superior según sea necesario */
+        margin-left: 25px;
+    }
+
+    .caam {
+        margin-top: 10px; /* Ajusta el margen superior según sea necesario */
+    }
+
+    .container {
+        padding-top: 100px; /* Ajusta el padding superior según sea necesario */
+    }
+}
